@@ -1,0 +1,101 @@
+@font-face{
+    font-family: re;
+    src: url(./Assets/Rejouice-Headline.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+
+
+#page1{
+    height: 100vh;
+    width: 100%;
+    background-color: #dadada;
+    position: relative;
+}
+
+#cursor {
+    height: 9vw;
+    width: 9vw;
+    background-color: #FF5F38;
+    border-radius: 50%;
+    position: fixed;
+    z-index: 9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translate(-50%, 50%);
+}
+
+#cursor h5 {
+    font-size: 1.1vw;
+    font-weight: 500;
+}
+
+#page1 video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+}
+
+#page1-content{
+    height: 100%;
+    width: 100%;
+    /* background-color: rgb(0, 0, 0); */
+    position: relative;
+    z-index: 10;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 1.5vw;
+
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3vw 3vw;
+    width: 100%;
+    
+
+}
+
+nav h3{
+    font-size: 1.4vw;
+    
+}
+
+nav h4{
+    font-size: 1.4vw;
+    
+}
+
+#page1-content h1{
+    /* font-family: re; */
+    font-size: 10vw;
+    font-family: "Protest Revolution", sans-serif;
+}
+
+#page1-content h1 span{
+    font-family: "Protest Revolution", sans-serif; 
+}
+
+#page2{
+    height: 100vh;
+    width: 100%;
+    background-color: beige;
+}
