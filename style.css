@@ -27,7 +27,7 @@ html, body {
 #cursor {
     height: 9vw;
     width: 9vw;
-    background-color: #FF5F38;
+    background-color: #ff4f23;
     border-radius: 50%;
     position: fixed;
     z-index: 9;
@@ -52,7 +52,7 @@ html, body {
 #page1-content{
     height: 100%;
     width: 100%;
-    /* background-color: rgb(0, 0, 0); */
+    background-color: rgba(0, 0, 0, 0.313);
     position: relative;
     z-index: 10;
     color: #fff;
@@ -92,10 +92,68 @@ nav h4{
 
 #page1-content h1 span{
     font-family: "Protest Revolution", sans-serif; 
+
 }
 
 #page2{
     height: 100vh;
     width: 100%;
     background-color: beige;
+}
+
+/* Page 2 css */ Pending
+
+
+/* Page 3 CSS */
+
+#page3 {
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+    padding: 3vw;
+
+}
+
+#page3-top{
+    /* background-color: red; */
+    text-align: center;
+}
+
+#page3-top h4{
+    margin-bottom: 1vw;
+    font-size: 2vw;
+    font-weight: 500;
+
+}
+
+#page3-top h4 span{
+    font-size: 1.5vw;
+    background-color: black;
+    color: white;
+    padding: 4px 10px;
+    border-radius: 10px;
+    
+}
+
+
+#page3-top h2{
+    font-size: 4vw;
+    font-weight: 500;
+}
+
+#page3-elements{
+    height: 75vh;
+    width: 100%;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+#page3-elements .box {
+    height: 100%;
+    width: 33%;
+    background-color: green;
+    
 }
